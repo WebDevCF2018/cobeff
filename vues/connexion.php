@@ -25,15 +25,6 @@
             <input type="checkbox" value="remember-me"> Se souvenir de moi
         </label>
     </div>
-
-    <?php
-    if(isset($erreur_login)) {
-        ?>
-    <div><?=$erreur_login?></div><br>
-
-    <?php
-    }
-    ?>
     <button class="btn btn-lg btn-primary btn-block" type="submit">Connexion</button>
     <p class="mt-5 mb-3 text-muted">&copy; COBEFF</p>
 </form>
