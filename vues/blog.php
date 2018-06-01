@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Metro Fit Contact</title>
+    <title>Metro Fit Blog</title>
 <!--
 Metro Fit
 http://www.templatemo.com/tm-495-metro-fit
@@ -33,8 +33,11 @@ http://www.templatemo.com/tm-495-metro-fit
                     <section class="tm-header-gallery">
                         
                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0">
-                            <a href="img/img-21-04.jpg">
-                                <img src="img/img-21-04.jpg" alt="Image" class="img-fluid tm-header-img">    
+                            <a href="img/img-11-03.jpg">
+                                <img src="img/img-11-03.jpg" alt="Image" class="img-fluid tm-header-img col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">    
+                            </a>
+                            <a href="img/img-11-04.jpg">
+                                <img src="img/img-11-04.jpg" alt="Image" class="img-fluid tm-header-img col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">        
                             </a>                         
                         </div>
                         
@@ -49,8 +52,11 @@ http://www.templatemo.com/tm-495-metro-fit
                         </div>
                                         
                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0">
-                            <a href="img/img-21-02.jpg">
-                                <img src="img/img-21-02.jpg" alt="Image" class="img-fluid tm-header-img">        
+                            <a href="img/img-11-07.jpg">
+                                <img src="img/img-11-07.jpg" alt="Image" class="img-fluid tm-header-img col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">    
+                            </a>
+                            <a href="img/img-11-08.jpg">
+                                <img src="img/img-11-08.jpg" alt="Image" class="img-fluid tm-header-img col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">        
                             </a>                       
                         </div>                
                         
@@ -70,22 +76,22 @@ http://www.templatemo.com/tm-495-metro-fit
                                         <a class="nav-link" href="accueil.html">Home</a>
                                     </div>
                                     <div class="nav-item">
-                                        <a class="nav-link" href="about.html">About</a>
+                                        <a class="nav-link" href="about.php">About</a>
                                     </div>    
                                 </div>
                                 
                                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0 tm-nav-item-pair">
                                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
-                                        <a class="nav-link" href="services.html">Services</a>
+                                        <a class="nav-link" href="services.php">Services</a>
                                     </div>
-                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
-                                        <a class="nav-link" href="blog.html">Blog</a>
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item active">
+                                        <a class="nav-link" href="blog.php">Blog</a>
                                     </div>    
                                 </div>
 
                                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0 tm-nav-item-pair">
-                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item active">
-                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
+                                        <a class="nav-link" href="contact.php">Contact</a>
                                     </div>
                                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item tm-dummy-nav-item">
                                         <div class="nav-link">&nbsp;</div>
@@ -99,91 +105,76 @@ http://www.templatemo.com/tm-495-metro-fit
                    
             </div> <!-- row -->
 
-            <div class="row tm-contact-form-row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-contact-form-col-left">
-                    <h2 class="tm-contact-form-title">Contact Us</h2>
-                    <form action="contact.html" method="post" class="tm-contact-form">
-                    
-                        <div class="form-group">
-                            <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
-                        </div>    
-                        
-                        <div class="form-group">
-                            <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Message" required></textarea>
-                        </div>    
-                        
-                        <div class="form-group">
-                            <button type="submit" class="pull-xs-right tm-submit-btn">Submit</button>
-                        </div>
-                        
-                    </form>  
-                </div>
-
-                <!-- Google Map -->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <h2 class="tm-contact-form-title">Location</h2>
-                    <div id="google-map"></div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="tm-search-form-container tm-blue-bg">
-                        <form class="form-inline tm-search-form" method="get" action="contact.html">
-                          <div class="form-group tm-form-group-search">
-                            <input type="text" name="search_term" class="form-control tm-search-input" id="inputSearch" placeholder="Type your question...">
-                          </div>
-                          <button type="submit" class="btn tm-search-btn">Search</button>
-                        </form>
-                    </div>                    
-                </div>
-            </div> <!-- row -->
-
-            <div class="row tm-faq-row">
-                
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    
-                    <div class="tm-about-box">
-                        <h2 class="tm-about-title">Frequent Questions</h2>
-                        <p class="tm-about-description tm-highlight-text">1. Maecenas venenatis neque non nisl tincidunt rhoncus. Duis accumsan turpis a lacus interdum, eu varius augue maximus. Ut faucibus pharetra neque?</p>
-                        <p class="tm-about-description">Quisque interdum nisl sit amet turpis auctor, quis suscipit ipsum congue. Naecenas id tortor ultrices tellus maximus varius at vel neque. Aliquam vitae tortor suscipit.</p>
-
-                        <p class="tm-about-description tm-highlight-text">2. Fusce maximus et mi vitae eleifend. Quisque dapibus ex eu massa dapibus, sollicitudin aliquet quam accumsan?</p>
-
-                        <p class="tm-about-description">Quisque interdum nisl sit amet turpis auctor, quis suscipit ipsum congue. Naecenas id tortor ultrices tellus maximus varius at vel neque. Aliquam vitae tortor suscipit.</p>
+            <div class="row tm-blog-post-row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-blog-post-margin-b tm-blog-post-box-container">
+                    <div class="tm-blog-post-box">
+                        <img src="img/img-21-01.jpg" alt="Image" class="img-fluid">
+                        <div class="tm-blog-post-text-box-outer">
+                            <div class="tm-blog-post-text-box">
+                                <h2 class="tm-blog-post-title">Etiam efficitur cursus efficitur</h2>
+                                <p class="tm-blog-post-description">Maecenas semper turpis quis elit finibus, non suscipit libero eleifend. Pellentesque viverra, libero in dapibus volutpat, risus sapien pharetra nulla.</p>
+                                <p class="tm-blog-post-description">Aenean nunc est, rhoncus sed hendrerit a, tristique venenatis massa. Donec tortor arcu, mattis a augue id, fermentum porta lectus.</p>                            
+                            </div>
+                            <a href="#" class="tm-blog-post-link">Read More...</a>
+                        </div>                                                
                     </div>
-                    
                 </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    
-                    <div class="tm-about-box">
-                        <h2 class="tm-about-title">&nbsp;</h2>
-                        <p class="tm-about-description tm-highlight-text">3. Donec efficitur maximus nisl quis semper. Nullam lobortis, ante ac rutrum tristique, ligula justo imperdiet eros, et semper augue tellus quis est?</p>
-                        <p class="tm-about-description">Ut varius ante non purus tempus dignissim. Integer rhoncus et elit sit amet aliquet. Proin molestie ligula luctus, pellentesque lectus ut, viverra mauris. Aliquam vitae.</p>
-                        <p class="tm-about-description tm-highlight-text">4. Cras aliquam magna ipsum, in suscipit elit tristique sit amet. Sed lobortis neque eu dui eleifend hendrerit?</p>
-                        <p class="tm-about-description">Praesent convallis felis sed efficitur porta. Duis vitae eros elit. Nam vitae quam metus. Nam congue augue non accumsan consequat. Proin consequat elit ut velit.</p>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-blog-post-margin-b tm-blog-post-box-container">
+                    <div class="tm-blog-post-box">
+                        <img src="img/img-21-02.jpg" alt="Image" class="img-fluid">
+                        <div class="tm-blog-post-text-box-outer">
+                            <div class="tm-blog-post-text-box">
+                                <h2 class="tm-blog-post-title">Lorem ipsum dolor sit amet</h2>
+                                <p class="tm-blog-post-description">Ut vel porttitor lectus. Pellentesque vitae ipsum quis tortor aliquet tristique ut non lacus. Etiam bibendum venenatis lacus, ut porttitor ligula posuere non.</p>
+                                <p class="tm-blog-post-description">Nunc et nisi et tortor hendrerit interdum vitae eu sem. Aliquam sit amet ex consectetur, faucibus tellus at, scelerisque libero.</p>                            
+                            </div>
+                            <a href="#" class="tm-blog-post-link">Details...</a>
+                        </div>  
                     </div>
-                    
                 </div>
-
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-blog-post-margin-b-0 tm-blog-post-box-container">
+                    <div class="tm-blog-post-box">
+                        <img src="img/img-21-03.jpg" alt="Image" class="img-fluid">
+                        <div class="tm-blog-post-text-box-outer">
+                            <div class="tm-blog-post-text-box">
+                                <h2 class="tm-blog-post-title">Quisque eu velit eget urna</h2>
+                                <p class="tm-blog-post-description">Vivamus dolor, dui, ultricies nec justo sed, posuere bibendum arcu. Sed ut massa vestibulum, consequat turpis eu, auctor nisi. Mauris condimentum cursus magna, ut varius diam rutrum nec.</p>
+                                <p class="tm-blog-post-description">Curabitur iaculis pellentesque consequat. Nam et ante lacus. Paesent enim ante, tempor ornare tempor facilisis, pretium nec neque.</p>
+                            </div>                            
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-blog-post-margin-b-0 tm-blog-post-box-container">
+                    <div class="tm-blog-post-box">
+                        <img src="img/img-21-04.jpg" alt="Image" class="img-fluid">
+                        <div class="tm-blog-post-text-box-outer">
+                            <div class="tm-blog-post-text-box">
+                                <h2 class="tm-blog-post-title">Nulla pretium euismod enim</h2>
+                                <p class="tm-blog-post-description">Donec ut metus sapien. Pellentesque sed odio aliquam, viverra nisl sed, maximus mi. Mauris pretium id justo non varius. Curabitur tristique porttitor erat.</p>
+                                <p class="tm-blog-post-description">Praesent enim ante, tempor ornare tempor facilisis, pretium nec neque. Nullam ac tortor a leo vehicula varius laoreet eu neque. Fusce id consectetur nunc. Praesent interdum elit nec odio semper sodales.</p>                            
+                            </div>                            
+                        </div>  
+                    </div>
+                </div>
             </div>
 
             <div class="row tm-nav-2-row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <nav class="tm-flex-center">
                         <ul class="tm-nav-2">
+<<<<<<< HEAD:vues/blog.html
                             <li class="tm-nav-item-2"><a href="accueil.html" class="tm-nav-link-2">Home</a></li>
                             <li class="tm-nav-item-2"><a href="about.html" class="tm-nav-link-2">About</a></li>
                             <li class="tm-nav-item-2"><a href="services.html" class="tm-nav-link-2">Services</a></li>
                             <li class="tm-nav-item-2"><a href="blog.html" class="tm-nav-link-2">Blog</a></li>
                             <li class="tm-nav-item-2"><a href="contact.html" class="tm-nav-link-2">Contact</a></li>
+=======
+                            <li class="tm-nav-item-2"><a href="index.html" class="tm-nav-link-2">Home</a></li>
+                            <li class="tm-nav-item-2"><a href="about.php" class="tm-nav-link-2">About</a></li>
+                            <li class="tm-nav-item-2"><a href="services.php" class="tm-nav-link-2">Services</a></li>
+                            <li class="tm-nav-item-2"><a href="blog.php" class="tm-nav-link-2">Blog</a></li>
+                            <li class="tm-nav-item-2"><a href="contact.php" class="tm-nav-link-2">Contact</a></li>
+>>>>>>> d3dcdc711516b6496ebe09290f4a64778b4db98b:vues/blog.php
                         </ul>
                     </nav>
                 </div>
@@ -228,45 +219,6 @@ http://www.templatemo.com/tm-495-metro-fit
                     gallery:{enabled:true}                
                 });
                            
-            });
-
-            /* Google map
-            ------------------------------------------------*/
-            var map = '';
-            var center;
-
-            function initialize() {
-                var mapOptions = {
-                    zoom: 16,
-                    center: new google.maps.LatLng(37.769725, -122.462154),
-                    scrollwheel: false
-                };
-            
-                map = new google.maps.Map(document.getElementById('google-map'),  mapOptions);
-
-                google.maps.event.addDomListener(map, 'idle', function() {
-                  calculateCenter();
-                });
-            
-                google.maps.event.addDomListener(window, 'resize', function() {
-                  map.setCenter(center);
-                });
-            }
-
-            function calculateCenter() {
-                center = map.getCenter();
-            }
-
-            function loadGoogleMap(){
-                var script = document.createElement('script');
-                script.type = 'text/javascript';
-                script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
-                document.body.appendChild(script);
-            }
-        
-            // DOM is ready
-            $(function() {                
-                loadGoogleMap(); // Google Map
             });
 
         </script>             

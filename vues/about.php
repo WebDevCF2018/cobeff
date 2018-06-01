@@ -70,22 +70,22 @@ http://www.templatemo.com/tm-495-metro-fit
                                         <a class="nav-link" href="accueil.html">Home</a>
                                     </div>
                                     <div class="nav-item active">
-                                        <a class="nav-link" href="about.html">About</a>
+                                        <a class="nav-link" href="about.php">About</a>
                                     </div>    
                                 </div>
                                 
                                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0 tm-nav-item-pair">
                                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
-                                        <a class="nav-link" href="services.html">Services</a>
+                                        <a class="nav-link" href="services.php">Services</a>
                                     </div>
                                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
-                                        <a class="nav-link" href="blog.html">Blog</a>
+                                        <a class="nav-link" href="blog.php">Blog</a>
                                     </div>    
                                 </div>
 
                                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0 tm-nav-item-pair">
                                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
-                                        <a class="nav-link" href="contact.html">Contact</a>
+                                        <a class="nav-link" href="contact.php">Contact</a>
                                     </div>
                                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item tm-dummy-nav-item">
                                         <div class="nav-link">&nbsp;</div>
@@ -170,11 +170,19 @@ http://www.templatemo.com/tm-495-metro-fit
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <nav class="tm-flex-center">
                         <ul class="tm-nav-2">
+<<<<<<< HEAD:vues/about.html
                             <li class="tm-nav-item-2"><a href="accueil.html" class="tm-nav-link-2">Home</a></li>
                             <li class="tm-nav-item-2"><a href="about.html" class="tm-nav-link-2">About</a></li>
                             <li class="tm-nav-item-2"><a href="services.html" class="tm-nav-link-2">Services</a></li>
                             <li class="tm-nav-item-2"><a href="blog.html" class="tm-nav-link-2">Blog</a></li>
                             <li class="tm-nav-item-2"><a href="contact.html" class="tm-nav-link-2">Contact</a></li>
+=======
+                            <li class="tm-nav-item-2"><a href="index.html" class="tm-nav-link-2">Home</a></li>
+                            <li class="tm-nav-item-2"><a href="about.php" class="tm-nav-link-2">About</a></li>
+                            <li class="tm-nav-item-2"><a href="services.php" class="tm-nav-link-2">Services</a></li>
+                            <li class="tm-nav-item-2"><a href="blog.php" class="tm-nav-link-2">Blog</a></li>
+                            <li class="tm-nav-item-2"><a href="contact.php" class="tm-nav-link-2">Contact</a></li>
+>>>>>>> d3dcdc711516b6496ebe09290f4a64778b4db98b:vues/about.php
                         </ul>
                     </nav>
                 </div>
