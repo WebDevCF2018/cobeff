@@ -179,19 +179,11 @@ http://www.templatemo.com/tm-495-metro-fit
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <nav class="tm-flex-center">
                         <ul class="tm-nav-2">
-<<<<<<< HEAD:vues/contact.html
-                            <li class="tm-nav-item-2"><a href="accueil.html" class="tm-nav-link-2">Home</a></li>
-                            <li class="tm-nav-item-2"><a href="about.html" class="tm-nav-link-2">About</a></li>
-                            <li class="tm-nav-item-2"><a href="services.html" class="tm-nav-link-2">Services</a></li>
-                            <li class="tm-nav-item-2"><a href="blog.html" class="tm-nav-link-2">Blog</a></li>
-                            <li class="tm-nav-item-2"><a href="contact.html" class="tm-nav-link-2">Contact</a></li>
-=======
-                            <li class="tm-nav-item-2"><a href="index.html" class="tm-nav-link-2">Home</a></li>
+                            <li class="tm-nav-item-2"><a href="accueil.php" class="tm-nav-link-2">Home</a></li>
                             <li class="tm-nav-item-2"><a href="about.php" class="tm-nav-link-2">About</a></li>
                             <li class="tm-nav-item-2"><a href="services.php" class="tm-nav-link-2">Services</a></li>
                             <li class="tm-nav-item-2"><a href="blog.php" class="tm-nav-link-2">Blog</a></li>
                             <li class="tm-nav-item-2"><a href="contact.php" class="tm-nav-link-2">Contact</a></li>
->>>>>>> d3dcdc711516b6496ebe09290f4a64778b4db98b:vues/contact.php
                         </ul>
                     </nav>
                 </div>
