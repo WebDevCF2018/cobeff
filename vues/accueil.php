@@ -147,7 +147,4 @@
                            
             });
 
-        </script>             
-
-</body>
-</html>
+        </script>
