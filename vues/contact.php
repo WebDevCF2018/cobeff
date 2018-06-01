@@ -1,61 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Metro Fit Contact</title>
-<!--
-Metro Fit
-http://www.templatemo.com/tm-495-metro-fit
--->
-    <!-- load stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">                <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
-    <link rel="stylesheet" href="css/magnific-popup.css">                                 <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
-    <link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
-</head>
-
-    <body>
-        <!-- Header gallery -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <section class="tm-header-gallery">
-                        
-                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0">
-                            <a href="img/img-21-04.jpg">
-                                <img src="img/img-21-04.jpg" alt="Image" class="img-fluid tm-header-img">    
-                            </a>                         
-                        </div>
-                        
-                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0">
-                            
-                            <div class="tm-site-name">
-                                <h1 class="text-uppercase tm-site-name-h1">Metro Fit</h1>
-                                <h2 class="tm-site-name-h2">by templatemo</h2>    
-                            </div>
-                            
-                            <img src="img/logo-bg.jpg" alt="Image" class="img-fluid tm-header-img">
-                        </div>
-                                        
-                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0">
-                            <a href="img/img-21-02.jpg">
-                                <img src="img/img-21-02.jpg" alt="Image" class="img-fluid tm-header-img">        
-                            </a>                       
-                        </div>                
-                        
-                    </section>
+<!-- Header gallery -->
+<div class="container-fluid">
+    <div class="row tm-contact-form-row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-contact-form-col-left">
+            <h2 class="tm-contact-form-title">Contact Us</h2>
+            <form action="contact.php" method="post" class="tm-contact-form">
+                    
+                <div class="form-group">
+                    <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
                 </div>
+<<<<<<< HEAD
             </div>                
             
             <!-- Navigation -->
@@ -95,35 +48,23 @@ http://www.templatemo.com/tm-495-metro-fit
                             </div>    
                         </div>                    
                     </nav>     
+=======
+                <div class="form-group">
+                    <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+>>>>>>> d3290f5c920e011e03b57b61cc4588b35c099c17
                 </div>
-                   
-            </div> <!-- row -->
-
-            <div class="row tm-contact-form-row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-contact-form-col-left">
-                    <h2 class="tm-contact-form-title">Contact Us</h2>
-                    <form action="contact.php" method="post" class="tm-contact-form">
-                    
-                        <div class="form-group">
-                            <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
-                        </div>    
+                <div class="form-group">
+                    <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
+                </div>    
                         
-                        <div class="form-group">
-                            <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Message" required></textarea>
-                        </div>    
+                <div class="form-group">
+                    <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Message" required></textarea>
+                </div>    
                         
-                        <div class="form-group">
-                            <button type="submit" class="pull-xs-right tm-submit-btn">Submit</button>
-                        </div>
-                        
-                    </form>  
+                <div class="form-group">
+                    <button type="submit" class="pull-xs-right tm-submit-btn">Submit</button>
                 </div>
+<<<<<<< HEAD
 
                 <!-- Google Map -->
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -263,13 +204,27 @@ http://www.templatemo.com/tm-495-metro-fit
                 script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
                 document.body.appendChild(script);
             }
+=======
+                        
+            </form>  
+        </div>  
+    </div>
+</div>
+>>>>>>> d3290f5c920e011e03b57b61cc4588b35c099c17
         
-            // DOM is ready
-            $(function() {                
-                loadGoogleMap(); // Google Map
-            });
+<script src="js/jquery-1.11.3.min.js"></script>
 
-        </script>             
+<script>     
+    $(window).load(function(){
 
+        /* Gallery pop up
+        -----------------------------------------*/
+        $('.tm-header-gallery').magnificPopup({
+            delegate: 'a', // child items selector, by clicking on it popup will open
+            type: 'image',
+            gallery:{enabled:true}                
+        });
+    });
+</script>             
 </body>
 </html>
