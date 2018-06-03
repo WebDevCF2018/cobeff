@@ -1,6 +1,8 @@
 <?php
+    //Ouverture de connexion
+    session_start();
+
 	//Charger base fichier de db
-	
 	require "vues/header.php";
 	require "controller/mainController.php";
 	require "vues/footer.php";
