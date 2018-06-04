@@ -60,25 +60,8 @@
                 // lien pour se déconnecter
                 echo '<li style="list-style: none"><a class="btn btn-primary" href="?logout">Déconnexion</a></li>';
                 }
+                
                 ?>
-
-                <ul>
-                    <?php
-                    if(!isset($_SESSION['permission'])){
-                    }else {
-                        // toutes personnes connectées à accès à la page 1
-                        ?>
-                        <li><a href="accueil.php"></a></li>
-                        <?php
-                        // seul l'admin a accès à ces pages
-                        if ($_SESSION['permission'] == 0){
-                            ?>
-                            <li><a href="?admin">Espace membre</a></li>
-                            <?php
-                        }
-                    }
-                    ?>
-                </ul>
                 </div>    
             </div>                    
         </nav>     
