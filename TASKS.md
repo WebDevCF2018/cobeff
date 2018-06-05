@@ -95,3 +95,5 @@
 </<ul>
 <hr>
   <h3>Pour contacter l'informatitien : informaticien@cobeff.com</h3>
+  
+  <h3>Pour contacter notre équipe de designers: choeyang_dakpa@hotmail.be</h3>
