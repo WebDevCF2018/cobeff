@@ -76,7 +76,7 @@
 
 <h3 id="autres">Autres :</h3>
 <ul>
-  <li>Ajouter "Rejoignez-nous sur Facebook" quelque part</li>
+  <li>Postionner bouton facebook avec position fixed</li>
   <li>Le logo du site doit être visible dans le menu</li>
   <li>Nouveaux pictogrammes (???)</li>
   <li>Faire un one-page pour le restaurant</li>
