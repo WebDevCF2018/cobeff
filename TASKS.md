@@ -68,7 +68,7 @@
   <li>pour le menu dropdown de la section "à propos": </li>
   <ul>
     <li>Présentation de la cobeff</li>
-    <li>Notr équipe ?</li>
+    <li>Notr équipe</li>
   </ul>
 </ul>
 
