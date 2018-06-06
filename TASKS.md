@@ -83,7 +83,6 @@
   <li>Faire un one-page pour le restaurant</li>
   <li>Le menu principal doit être en haut de page</li>
   <li>inscription à la newsletter (pouvoir se désabonner de la newsletter avec un lien donné dans le mail)</li>
-  <li>Section "Jobs" pour recruter du personnel pour l'ASBL</li>
   <li>Formulaire pour envoyer des suggestions pour des nouvelles formations ou autre</li>
   <li>Mettre en avant la mixité homme/femme dans les formations (avec des photos montrant des personnes des 2 sexes ?)</li>
   <li>Formations uniquement ouvertes aux femmes :</li>
