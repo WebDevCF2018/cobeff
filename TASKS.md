@@ -1,7 +1,7 @@
 <h2>Cahier des charges COBEFF</h2>
 <ul>
   <li><a href="#accueil">Accueil</a>
-  <li><a href="#qui">Qui sommes-nous ?</a>
+  <li><a href="#qui">à propos ?</a>
     <li><a href="#contact">Contact</a>
   <li><a href="#logins">Logins</a>
     <ul>
@@ -17,7 +17,7 @@
 <p>Eléments de l'accueil :</p>
 <ul>
   <li>Slider avec les news</li>
-  <li>Présentation graphique des formations avec redirection</li>
+  <li>slider avec les formations avec redirection</li>
   <li>Le calendrier contenant les dates importantes</li>
 </ul>
 
