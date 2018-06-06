@@ -67,10 +67,9 @@
 <ul>
   <li>pour le menu dropdown de la section "à propos": </li>
   <ul>
-    <li>Qui sommes nous ?</li>
-    <li>Partenaires --> redirige vers "qui sommes nous ?" puis scroll automatiquement jusqu'aux partenaires</li>
+    <li>Présentation de la cobeff</li>
+    <li>Notr équipe ?</li>
   </ul>
-  <li>Les partenaires doivent avoir un image et un lien de redirection vers leurs sites</li>
 </ul>
 
 <hr>
