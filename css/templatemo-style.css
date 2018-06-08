@@ -940,7 +940,6 @@ button:focus { outline: none; }
 
 	.navbar-nav .nav-item {
 		height: 80px;
-		max-width: 249px; 
 	}
 
 	.navbar { position: relative; }
@@ -958,7 +957,7 @@ button:focus { outline: none; }
 		margin-bottom: 30px;
 	}
 
-	.tm-nav-link-2 { padding: 20px 40px; }
+	.tm-nav-link-2 { padding: 20px 20px; }
 	.tm-about-row {	padding: 80px 50px 60px; }	
 	.tm-about-description-2 { margin-bottom: 80px; }
 	.tm-about-row-3 { margin-top: 0; }

@@ -1,5 +1,4 @@
-<body>
-    <!-- row -->
+<!-- row -->
         <div class="row tm-blog-post-row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-blog-post-margin-b tm-blog-post-box-container">
                 <div class="tm-blog-post-box">
@@ -70,5 +69,5 @@
             });
                            
         });
-        
-    </script>
+      
+</script>

@@ -1,5 +1,4 @@
-
-        <!-- Header gallery -->
+<!-- Header gallery -->
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">

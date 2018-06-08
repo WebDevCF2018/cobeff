@@ -5,9 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            display: none;
+        }
+    </style>
 </head>
 
-<body>
+<body onload="document.body.style.display = 'block' ">
 <div class="row">
     <div class="col-lg-12">
         <nav class="navbar">
@@ -41,8 +46,22 @@
                                 <a class="nav-link" href="./?p=restaurant">Restaurant</a>
                         </div>
                         </div>
-                    </div>                            
-                                
+                    </div>
+                <?php
+                // si il n'existe pas de variable de connexion
+                if (!isset($_SESSION["clef"])) {
+
+                // lien pour se connecter
+                echo '<li style="list-style: none"><a class="btn btn-primary" href="?p=login">Connexion</a></li>';
+
+                // sinon il existe une connexion
+                } else {
+
+                // lien pour se déconnecter
+                echo '<li style="list-style: none"><a class="btn btn-primary" href="?p=logout">Déconnexion</a></li>';
+                }
+                
+                ?>
                 </div>    
             </div>                    
         </nav>     

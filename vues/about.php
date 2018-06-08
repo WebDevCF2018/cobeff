@@ -146,6 +146,7 @@
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
 
 <<<<<<< HEAD
             <div class="row tm-nav-2-row">
@@ -204,6 +205,8 @@
                 | Design: <a href="http://www.google.com/+templatemo" target="_parent">Templatemo</a></p>
             </div>
         </footer>
+=======
+>>>>>>> d3c850f6f492e1870f52cf26dc6c771b62fb25e3
             
     </div> <!-- container-fluid -->
         

@@ -1,9 +1,165 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Restaurant antoinette</title>
-</head>
-<body>
-</body>
-</html>
+<div class="container-fluid">
+
+        <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading text-white">Accueil</h2>
+                    <hr class="light my-4">
+                    <p class="text-faded mb-4">​
+                        Nous voilà repartis pour une année de formation cuisine.
+                        A cet effet, n'hésitez pas à venir nous rejoindre pour venir déguster les plats préparés par nos stagiaires sous les ordres avisés de nos deux chefs.Nouveauté de cette année: N'hésitez pas à nous suivre sur notre compte Facebook en cliquant sur le logo ci dessous</p>
+                    <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Nos menus</h2>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <h3 class="mb-3">Mardi 29 mai</h3>
+                        <p class="text-muted mb-0">Entrée : Tajine au fromage
+                            Plat : Poulet à la canelle et aux légumes
+                            Dessert : Semoule à la fleur d'oranger</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <h3 class="mb-3">Mercredi 30 juin</h3>
+                        <p class="text-muted mb-0">YPotage : tomate et basilic
+                            Entrée : Mousse de poisson
+                            Plat : Dorade au four, légumes méditerranéen
+                            Dessert : Crêpe Suzette</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <h3 class="mb-3">​​​​​Mardi 05 juin</h3>
+                        <p class="text-muted mb-0">Entrée : Salsa aux concombres
+                            Plat : Fajitas au poulet
+                            Dessert : Crème au caramel aux saveur du mexique</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <h3 class="mb-3">Mercredi 06 juin</h3>
+                        <p class="text-muted mb-0">Potage : Soupe au lait de coco et poulet
+                            Entrée : Rouleaux de printemps
+                            Plat : Riz sauté au canard
+                            Dessert : Glace</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <h3 class="mb-3">Mardi 12 juin</h3>
+                        <p class="text-muted mb-0">Entrée : Pastilla aux fruits de mer
+                            Plat : Tajine de viande et dattes farcies
+                            Dessert : Cigares aux amandes</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <h3 class="mb-3">Mercredi 13 juin</h3>
+                        <p class="text-muted mb-0">Potage : Gaspacho andalou
+                            Entrée : Beignets de courgettes
+                            Plat : Escalope de veau, tomate grillée
+                            Dessert : Tiramisu aux fraises</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">Nos tarifs!</h2>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                    <h3 class="mb-3">Mercredi 30 juin</h3>
+                    <p class="text-muted mb-0">​
+                        Menu du jour
+                        (Potage ou Entrée + Plat +Dessert)
+                        Potage ou Entrée
+                        Grande Entrée
+                        Plat
+                        Suggestion
+                        Supplément légumes
+                        Dessert
+                        Soft (33cl.)
+                        Eau plate (50cl.)
+                        Vin - le verre
+                        Vin - 1/4
+                        Vin - 1/2
+                        Vin - la bouteille
+                        Café/Thé
+                        10,00€
+                        2,50€
+                        5,00€
+                        6,50€
+                        6,50€
+                        1,00€
+                        2,00€
+                        1,20€
+                        1,20€
+                        1,80€
+                        3,50€
+                        7,50€
+                        10,00€
+                        1,20€</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading">Horaires et accés</h2>
+                    <hr class="my-4">
+                    <p class="mb-5">Les heures d'ouverture
+                        Service assuré de 12h à 13h45.
+                        Adresse:
+                        Rue Philomène 37
+                        1030 Bruxelles.
+                        Bus 65 et 66, tram 25 arrêt "Coteaux".
+                        Bus 59 arrêt "Geefs".</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ml-auto text-center">
+                    <p></p>
+                </div>
+                <div class="col-lg-4 mr-auto text-center">
+                    <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+                    <p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+</div>

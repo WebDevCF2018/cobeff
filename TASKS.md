@@ -1,7 +1,7 @@
 <h2>Cahier des charges COBEFF</h2>
 <ul>
   <li><a href="#accueil">Accueil</a>
-  <li><a href="#qui">Qui sommes-nous ?</a>
+  <li><a href="#qui">Ã  propos</a>
     <li><a href="#contact">Contact</a>
   <li><a href="#logins">Logins</a>
     <ul>
@@ -14,10 +14,10 @@
 </ul>
 
 <h3 id="accueil">Accueil :</h3>
-<p>Eléments de l'accueil :</p>
+<p>ElÃ©ments de l'accueil :</p>
 <ul>
   <li>Slider avec les news</li>
-  <li>Présentation graphique des formations avec redirection</li>
+  <li>slider pour les formations avec redirection</li>
   <li>Le calendrier contenant les dates importantes</li>
 </ul>
 
@@ -26,23 +26,23 @@
 <h3 id="contact">Contact :</h3>
 <ul>
   <li>Formluaire de contact</li>
-  <li>Numéro de contact</li>
+  <li>NumÃ©ro de contact</li>
   <li>Localisation google maps</li>
 </ul>
 
 <hr>
 
 <h3 id="logins">Logins :</h3>
-<p>Création d'identifiants de connexion pour :</p>
+<p>CrÃ©ation d'identifiants de connexion pour :</p>
 <ul>
   <li id="admin">Administrateur :<br>
     <ul>
-      <li>Création de news avec des images + envoi de newsletter lors de l'envoi</li>
+      <li>CrÃ©ation de news avec des images + envoi de newsletter lors de l'envoi</li>
       <li>Inscrire les nouveaux stagiaires</li>
       <li>Effacer les comptes stagiaires et formateurs</li>
       <li>Inscrire les formateurs</li>
-      <li>Gérer le calendrier</li>
-      <li>Gérer les informations concernant les horaires des cours (???)</li>
+      <li>GÃ©rer le calendrier</li>
+      <li>GÃ©rer les informations concernant les horaires des cours (???)</li>
     </ul>
   </li>
   
@@ -50,8 +50,8 @@
   <li id="formateur">Formateur :</li>
   <ul>
     <li>Ajout de syllabus concernant leur cours</li>
-    <li>Gérer les informations concernant les horaires des cours (???)</li>
-    <li>Rédaction de news à l'attention des stagiaires</li>
+    <li>GÃ©rer les informations concernant les horaires des cours (???)</li>
+    <li>RÃ©daction de news Ã  l'attention des stagiaires</li>
   </ul>
   <br>
   
@@ -63,29 +63,27 @@
 
 <hr>
 
-<h3 id="qui">à propos :</h3>
+<h3 id="qui">Ã  propos :</h3>
 <ul>
-  <li>pour le menu dropdown de la section "à propos": </li>
+  <li>pour le menu dropdown de la section "Ã  propos": </li>
   <ul>
-    <li>Qui sommes nous ?</li>
-    <li>Partenaires --> redirige vers "qui sommes nous ?" puis scroll automatiquement jusqu'aux partenaires</li>
+    <li>PrÃ©sentation de la cobeff</li>
+    <li>Notr Ã©quipe</li>
   </ul>
-  <li>Les partenaires doivent avoir un image et un lien de redirection vers leurs sites</li>
 </ul>
 
 <hr>
 
 <h3 id="autres">Autres :</h3>
 <ul>
-  <li>Ajouter "Rejoignez-nous sur Facebook" quelque part</li>
-  <li>Le logo du site doit être visible dans le menu</li>
+  <li>Postionner bouton facebook avec position fixed</li>
+  <li>Le logo du site doit Ãªtre visible dans le menu</li>
   <li>Nouveaux pictogrammes (???)</li>
   <li>Faire un one-page pour le restaurant</li>
-  <li>Le menu principal doit être en haut de page</li>
-  <li>inscription à la newsletter (pouvoir se désabonner de la newsletter avec un lien donné dans le mail)</li>
-  <li>Section "Jobs" pour recruter du personnel pour l'ASBL</li>
+  <li>Le menu principal doit Ãªtre en haut de page</li>
+  <li>inscription Ã  la newsletter (pouvoir se dÃ©sabonner de la newsletter avec un lien donnÃ© dans le mail)</li>
   <li>Formulaire pour envoyer des suggestions pour des nouvelles formations ou autre</li>
-  <li>Mettre en avant la mixité homme/femme dans les formations (avec des photos montrant des personnes des 2 sexes ?)</li>
+  <li>Mettre en avant la mixitÃ© homme/femme dans les formations (avec des photos montrant des personnes des 2 sexes ?)</li>
   <li>Formations uniquement ouvertes aux femmes :</li>
     <ul>
       <li>Vente</li>
@@ -94,4 +92,6 @@
     </ul>
 </<ul>
 <hr>
-  <h3>Pour contacter l'informatitien : informatique@cobeff.com</h3>
+  <h3>Pour contacter l'informatitien : informaticien@cobeff.com</h3>
+  
+  <h3>Pour contacter notre Ã©quipe de designers: choeyang_dakpa@hotmail.be</h3>
