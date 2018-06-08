@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php
 	//Charger base fichier de db
 	
@@ -17,4 +15,4 @@
     <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
->>>>>>> d3290f5c920e011e03b57b61cc4588b35c099c17
+
