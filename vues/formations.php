@@ -16,8 +16,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0">
                             
                             <div class="tm-site-name">
-                                <h1 class="text-uppercase tm-site-name-h1">Metro Fit</h1>
-                                <h2 class="tm-site-name-h2">by templatemo</h2>    
+                                <img src="./img/cobeff/Logo_Cobeff_Petit.jpg" width="170" height="115">
                             </div>
                             
                             <img src="img/logo-bg.jpg" alt="Image" class="img-fluid tm-header-img">
@@ -45,11 +44,7 @@
                                 
                                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0 tm-nav-item-pair">
                                     <div class="nav-item">
-<<<<<<< HEAD:vues/services.php
-                                        <a class="nav-link" href="accueil.html">Home</a>
-=======
                                         <a class="nav-link" href="./?p=formations&f=1">Formation 1</a>
->>>>>>> d3c850f6f492e1870f52cf26dc6c771b62fb25e3:vues/formations.php
                                     </div>
                                     <div class="nav-item">
                                         <a class="nav-link" href="./?p=formations&f=2">Formation 2</a>
@@ -247,52 +242,18 @@
                 </div>
 
             </div>
-<<<<<<< HEAD:vues/services.php
 
-
-            <div class="row tm-nav-2-row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <nav class="tm-flex-center">
-                        <ul class="tm-nav-2">
-<<<<<<< HEAD:vues/services.html
-                            <li class="tm-nav-item-2"><a href="accueil.html" class="tm-nav-link-2">Home</a></li>
-                            <li class="tm-nav-item-2"><a href="about.html" class="tm-nav-link-2">About</a></li>
-                            <li class="tm-nav-item-2"><a href="services.html" class="tm-nav-link-2">Services</a></li>
-                            <li class="tm-nav-item-2"><a href="blog.html" class="tm-nav-link-2">Blog</a></li>
-                            <li class="tm-nav-item-2"><a href="contact.html" class="tm-nav-link-2">Contact</a></li>
-=======
-                            <li class="tm-nav-item-2"><a href="index.html" class="tm-nav-link-2">Home</a></li>
-                            <li class="tm-nav-item-2"><a href="about.php" class="tm-nav-link-2">About</a></li>
-                            <li class="tm-nav-item-2"><a href="services.php" class="tm-nav-link-2">Services</a></li>
-                            <li class="tm-nav-item-2"><a href="blog.php" class="tm-nav-link-2">Blog</a></li>
-                            <li class="tm-nav-item-2"><a href="contact.php" class="tm-nav-link-2">Contact</a></li>
->>>>>>> d3dcdc711516b6496ebe09290f4a64778b4db98b:vues/services.php
-                        </ul>
-                    </nav>
-                </div>
-            </div> <!-- row -->
 
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="tm-social-icons-container text-xs-center">
                         <a href="#" class="tm-social-link"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="tm-social-link"><i class="fa fa-google-plus"></i></a>
                         <a href="#" class="tm-social-link"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="tm-social-link"><i class="fa fa-behance"></i></a>
                         <a href="#" class="tm-social-link"><i class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
 
-            <footer class="row tm-footer">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <p class="text-xs-center tm-copyright">Copyright &copy; 2016 Your Company 
-                    
-                    | Design: <a href="http://www.google.com/+templatemo" target="_parent">Templatemo</a></p>
-                </div>
-            </footer>
-=======
->>>>>>> d3c850f6f492e1870f52cf26dc6c771b62fb25e3:vues/formations.php
             
         </div> <!-- container-fluid -->
 

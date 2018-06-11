@@ -8,7 +8,6 @@
                 <div class="form-group">
                     <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
                 </div>
-<<<<<<< HEAD
             </div>                
             
             <!-- Navigation -->
@@ -47,11 +46,9 @@
                                 
                             </div>    
                         </div>                    
-                    </nav>     
-=======
+                    </nav>
                 <div class="form-group">
                     <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
->>>>>>> d3290f5c920e011e03b57b61cc4588b35c099c17
                 </div>
                 <div class="form-group">
                     <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
@@ -63,8 +60,6 @@
                         
                 <div class="form-group">
                     <button type="submit" class="pull-xs-right tm-submit-btn">Submit</button>
-                </div>
-<<<<<<< HEAD
 
                 <!-- Google Map -->
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -153,10 +148,10 @@
         </div> <!-- container-fluid -->
         
         <!-- load JS files -->
-        <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
-        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) -->
-        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap (http://v4-alpha.getbootstrap.com/) -->
-        <script src="js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
         <script>     
        
             $(window).load(function(){
@@ -204,13 +199,12 @@
                 script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
                 document.body.appendChild(script);
             }
-=======
                         
             </form>  
         </div>  
     </div>
 </div>
->>>>>>> d3290f5c920e011e03b57b61cc4588b35c099c17
+
         
 <script src="js/jquery-1.11.3.min.js"></script>
 

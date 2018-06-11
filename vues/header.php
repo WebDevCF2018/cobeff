@@ -47,7 +47,8 @@
                         </div>
                         </div>
                     </div>
-                <?php
+        </nav>
+        <?php
                 // si il n'existe pas de variable de connexion
                 if (!isset($_SESSION["clef"])) {
 
@@ -63,7 +64,7 @@
                 
                 ?>
                 </div>    
-            </div>                    
-        </nav>     
+            </div>
     </div>       
 </div>
+</body>
