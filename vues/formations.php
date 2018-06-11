@@ -195,66 +195,6 @@
                 </div>
             </div>
             
-            <div class="row tm-services-row-2">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 tm-services-col">
-                    <div class="tm-about-box-3 tm-services-box-3 tm-blue-bordered">
-                        <h2 class="tm-services-title tm-blue-text">Etiam bibendum enim</h2>
-                        <p class="tm-about-description-3"><em>Nam tortor lacus, fringilla nec quam a, volupat laoreet dui. Nunc consequat nulla vel ipsum cursus, eu tempor mauris gravida. Donec sit amet.</em></p>
-                        <p class="tm-about-description-3">Nunc finibus vehicula pharetra. Fusce sed ante a odio fringilla bibendum. Donec et pharetra orci. Praesent tempus efficitur tellus.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 tm-services-col">
-                    <div class="tm-about-box-3 tm-services-box-3 tm-blue-bg">
-                        <h2 class="tm-services-title tm-yellow-text">Quisque eu lorem</h2>
-                        <p class="tm-about-description-3">Nam tortor lacus, fringilla nex quam a, volupat laoreet dui. Nunc consequat nulla vel ipsum cursus, eu tempor mauris gravida. Donec sit amet.</p>
-                        <p class="tm-about-description-3">Nunc finibus vehicula pharetra. Fusce sed ante a odio fringilla bibendum. Donec et pharetra orci. Praesent tempus efficitur tellus.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 tm-services-col">
-                    <div class="tm-about-box-3 tm-services-box-3 tm-gray-bordered">
-                        <h2 class="tm-services-title tm-black-text">Donec id quam vulputate</h2>
-                        <p class="tm-about-description-3 tm-blue-text">Nam tortor lacus, fringilla nex quam a, volupat laoreet dui. Nunc consequat nulla vel ipsum cursus, eu tempor mauris gravida. Donec sit amet.</p>
-                        <p class="tm-about-description-3 tm-blue-text"><em>Nunc finibus vehicula pharetra. Fusce sed ante a odio fringilla bibendum. Donec et pharetra orci. Praesent tempus efficitur tellus.</em></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row tm-services-row">
-
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 tm-services-col-left">
-                    
-                    <div>
-                        <img src="img/img-11-01.jpg" alt="Image" class="img-fluid col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 tm-pad-0">
-                        <img src="img/img-11-07.jpg" alt="Image" class="img-fluid col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 tm-pad-0">
-                        <img src="img/img-11-08.jpg" alt="Image" class="img-fluid col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 tm-pad-0">
-                        <img src="img/img-11-05.jpg" alt="Image" class="img-fluid col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 tm-pad-0">
-                    </div>
-                    
-                </div>
-                
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 tm-services-col-right">                    
-                    <div class="tm-services-box">
-                        <h2 class="tm-blue-text tm-services-title">Lorem ipsum dolor sit amet</h2>
-                        <p class="tm-services-description">Donec a suscipit turpis. Duis hendrerit risus arcu, et eleifend ipsum vaius vel. Nam tortor lacus, fringilla nec quam a, volupat laoreet dui. Nunc consequat nulla vel ipsum cursus, eu tempor mauris gravida. Title #0066CC | Text #333 | BG #F4F4F4</p>
-                        <p class="tm-services-description">Nunc finibus vehicula pharetra. Fusce sed ante a odio fringilla bibendum. Donec et pharetra orci. Praesent tempus efficitur tellus, sed posuere leo facilisis feugiat. Phasellus ac est sed lorem pretium tempus eleifend at nisl.</p>                       
-                    </div>
-                    
-                </div>
-
-            </div>
-
-
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="tm-social-icons-container text-xs-center">
-                        <a href="#" class="tm-social-link"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="tm-social-link"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="tm-social-link"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            
         </div> <!-- container-fluid -->
 
         <!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
