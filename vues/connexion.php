@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Connexion</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="../css/connexion.css" type="text/css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/connexion.css" type="text/css">
 </head>
 
 <body class="text-center">
@@ -25,7 +25,7 @@
             <input type="checkbox" value="remember-me"> Se souvenir de moi
         </label>
     </div>
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Connexion</button>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Valider</button>
     <p class="mt-5 mb-3 text-muted">&copy; COBEFF</p>
 </form>
 </body>

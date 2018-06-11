@@ -14,8 +14,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0">
                             
                         <div class="tm-site-name">
-                            <h1 class="text-uppercase tm-site-name-h1">Metro Fit</h1>
-                            <h2 class="tm-site-name-h2">by templatemo</h2>    
+                            <img src="./img/cobeff/Logo_Cobeff_Petit.jpg">
                         </div>
                             
                         <img src="img/logo-bg.jpg" alt="Image" class="img-fluid tm-header-img">
@@ -32,42 +31,37 @@
         </div>                
             
         <!-- Navigation -->
-        <div class="row">
-            <div class="col-lg-12">
-                <nav class="navbar">
-                    <div id="tmNavbar">
-                        <div class="nav navbar-nav tm-nav">
-                                
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0 tm-nav-item-pair">
-                                <div class="nav-item">
-                                    <a id="about-cobeff" class="nav-link" href="#">à propos de la Cobeff</a>
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar">
+                        <div id="tmNavbar">
+                            <div class="nav navbar-nav tm-nav">
+                                <div class="nav-item active">
+                                    <a class="nav-link" href="">Présentation</a>
                                 </div>
-                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
-                                </div>
-                            </div>
-                                
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0 tm-nav-item-pair">
-                                <div class="nav-item">
-                                    <a id="about-team" class="nav-link" href="#">Notre équipe</a>
-                                </div>   
-                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
-                                </div>
-                            </div>
-
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0 tm-nav-item-pair">
-                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
-                                    <a id="about-partenaires" class="nav-link" href="#">Nos partenaires</a>
-                                </div>
-                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0 tm-nav-item-pair">
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
+                                        <a id="about-cobeff" class="nav-link" href="#">à propos de la Cobeff</a>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
+                                        <a id="about-team" class="nav-link" href="#">Notre équipe</a>
+                                    </div>
                                 </div>
 
-                            </div>                            
-                                
-                        </div>    
-                    </div>                    
-                </nav>     
-            </div>
-                   
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0 tm-nav-item-pair">
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
+                                        <a id="about-partenaires" class="nav-link" href="#">Nos partenaires</a>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item tm-dummy-nav-item">
+                                        <div class="nav-link">&nbsp;</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
         </div> <!-- row -->
 
         <div class="row tm-about-row">
@@ -136,7 +130,7 @@
                 </div>
             </div>
         </div>
-            
+
     </div> <!-- container-fluid -->
         
         <script src="js/jquery-1.11.3.min.js"></script>

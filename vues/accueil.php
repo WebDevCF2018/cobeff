@@ -36,8 +36,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0">
                             
                             <div class="tm-site-name">
-                                <h1 class="text-uppercase tm-site-name-h1">Metro Fit</h1>
-                                <h2 class="tm-site-name-h2">by templatemo</h2>    
+                                <img src="./img/cobeff/Logo_Cobeff_Petit.jpg" width="170" height="115">
                             </div>
                             
                             <img src="img/logo-bg.jpg" alt="Image" class="img-fluid tm-header-img">
@@ -84,10 +83,10 @@
                     
                     <div class="tm-content-box">
                         <i class="fa fa-4x fa-bicycle tm-content-icon"></i>
-                        <h2 class="tm-content-title">Mauris viverra ipsum</h2>
-                        <p>You can <strong>easily</strong> change <a rel="nofollow" href="http://fontawesome.io/icons/" target="_blank">Font Awesome icons</a> in HTML codes. Metro Fit is free HTML CSS web template from Templatemo.</p>
-                        <p>Vestibulum ante nibh, sagittis dapibus dui nec, dictum sagittis quam. Integer mollis augue nex eros iaculis, eget hendrerit tortor feugiat.</p>
-                        <p>Quisque eu lectus quis tortor efficitur sollicitudin at eu elit. Aliquam a sagittis lectus, semper porta.</p>    
+                        <h2 class="tm-content-title">Qui sommes nous ?</h2>
+                        <p>Depuis 1992, l'objectif de l'a.s.b.l. Cobeff est de coordonner et d'organiser dans différents secteurs des programmes d'insertion socio-professionnelle pour femmes peu scolarisées, confrontées aux difficultés d'une société en crise et qui refusent l'exclusion.</p>
+                        <p>La Cobeff se veut un réseau d'échanges et de soutien, de prospection et de recherche dans les secteurs de l'emploi et de la formation. Elle soutient également des projets d'insertion socio-professionnelle par la création d'entreprises solidaires.</p>
+                        <p>La Cobeff travaille en partenariat avec des centres de formation de base et de préformation afin de développer le parcours d'insertion des personnes.</p>
                     </div>
                     
                 </div>
@@ -96,9 +95,11 @@
                     
                     <div class="tm-content-box">
                         <i class="fa fa-4x fa-camera tm-content-icon"></i>
-                        <h2 class="tm-content-title">Phasellus faucibus sem</h2>
-                        <p>Suspendisse condimentum aliquet lorem porta faucibus. Sed commodo lectus non purus scelerisque malesuada. Integer commodo vulputate leo. Nam quis tortor quis libero laoreet cursus.</p>
-                        <p>Proin volutpat luctus lacus, sollicitudin dictum orci vestibulum eu. Sed quis fringilla nulla. Vestibulum ante nibh, sagittis dapibus dui nex, dictum sagittis quam.</p>                        
+                        <h2 class="tm-content-title">Choix pédagogiques...</h2>
+                        <p>
+                            La spécificité du travail avec des adultes réside dans la redynamisation du rapport à l'apprentissage, dans la redécouverte du plaisir et du pouvoir d'apprendre, de se souvenir de ce qu'on savait et de structurer son savoir.</p>
+                        <p>L'auto évaluation, se regarder avec un regard ouvert et réaliste, joue un rôle essentiel dans cette démarche.</p>
+                        <p>Travailler en groupe et se situer comme acteur au sein de celui-ci est indispensable pour prendre ensuite sa place dans les relations de travail et dans la société.</p>
                     </div>
                     
                 </div>
@@ -107,10 +108,14 @@
                     
                     <div class="tm-content-box">
                         <i class="fa fa-4x fa-street-view tm-content-icon"></i>
-                        <h2 class="tm-content-title">Lorem ipsum dolor</h2>
-                        <p>Curabitur hendrerit magna at enim iaculis, at porta nisl tempus. Fusce vitae magna non libero elementum blandit.</p>
-                        <p>Ut venenatis viverra dolor, sit amet blandit nisl eleifend ultrices. Nullam ex justo, posuere sed tortor eget, rhoncus gravida sem.</p>
-                        <p>Vivamus viverra semper felis a placerat. Duis et dapibus sapien, quis porttitor lacus.</p>    
+                        <h2 class="tm-content-title">Que proposons-nous ?</h2>
+                        <ul>
+                            <li>Acquérir des compétences professionnelles</li>
+                            <li>Développer un savoir faire adéquat</li>
+                            <li>Viser un métier</li>
+                            <li>Accéder à un emploi</li>
+                        </ul>
+                        <p>Mais aussi, apprendre à se connaître soi-même, reconstruire la confiance en ses capacités personnelles, entrer en contact avec le monde environnant et développer ses capacités de participation.</p>
                     </div>
                     
                 </div>

@@ -16,8 +16,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0">
                             
                             <div class="tm-site-name">
-                                <h1 class="text-uppercase tm-site-name-h1">Metro Fit</h1>
-                                <h2 class="tm-site-name-h2">by templatemo</h2>    
+                                <img src="./img/cobeff/Logo_Cobeff_Petit.jpg" width="170" height="115">
                             </div>
                             
                             <img src="img/logo-bg.jpg" alt="Image" class="img-fluid tm-header-img">
@@ -243,6 +242,18 @@
                 </div>
 
             </div>
+
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="tm-social-icons-container text-xs-center">
+                        <a href="#" class="tm-social-link"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="tm-social-link"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="tm-social-link"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
             
         </div> <!-- container-fluid -->
 
