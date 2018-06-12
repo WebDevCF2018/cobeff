@@ -9,10 +9,6 @@
 					echo "Identifiants incorrects";
 					echo "<script>setTimeout(function(){location.replace('../?p=login');}, 3000)</script>";
 					break;
-				case 2:
-					echo "Champ(s) incomplet(s)";
-					echo "<script>setTimeout(function(){location.replace('../?p=login');}, 3000)</script>";
-					break;
 
 				case 'what':
 					echo "Une erreur inconnue est survenue";
