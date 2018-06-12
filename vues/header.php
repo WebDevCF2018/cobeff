@@ -9,10 +9,31 @@
         body{
             display: none;
         }
+
+        @media (max-width: 640px){
+            #style{
+                right: 0!important;
+            }
+
+            #connexion input, #connexion button{
+                position: static;
+                display: block;
+            }
+        }
     </style>
 </head>
 
 <body onload="document.body.style.display = 'block' ">
+
+<div id="style" style="text-align: right; position: relative; right: 50px; top: 15px">
+
+    <div id="connexion">
+        <input type="text" id="username" placeholder="Identifiant">
+        <input type="password" id="password" placeholder="Mot de passe">
+        <button onclick="connexion()">Valider</button>
+    </div>
+</div>
+<br>
 <div class="row">
     <div class="col-lg-12">
         <nav class="navbar">
