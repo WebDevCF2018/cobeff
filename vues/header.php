@@ -45,26 +45,10 @@
                         <div id="nav-contact" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
                                 <a class="nav-link" href="./?p=restaurant">Restaurant</a>
                         </div>
-                        </div>
                     </div>
-        </nav>
-        <?php
-                // si il n'existe pas de variable de connexion
-                if (!isset($_SESSION["clef"])) {
-
-                // lien pour se connecter
-                echo '<li style="list-style: none"><a class="btn btn-primary" href="?p=login">Connexion</a></li>';
-
-                // sinon il existe une connexion
-                } else {
-
-                // lien pour se déconnecter
-                echo '<li style="list-style: none"><a class="btn btn-primary" href="?p=logout">Déconnexion</a></li>';
-                }
-                
-                ?>
-                </div>    
+                </div>
             </div>
-    </div>       
+        </nav>
+    </div>
 </div>
 </body>
