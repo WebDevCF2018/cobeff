@@ -1,13 +1,6 @@
 <?php
 	if(isset($_GET['p'])){
 		switch ($_GET['p']) {
-			case "login":
-				if(isset($_SESSION['username'])){
-					header("Location: ./");
-				}else{
-					require "vues/connexion.php";
-				}
-				break;
 
 			case "formations":
 				require "vues/formations.php";
