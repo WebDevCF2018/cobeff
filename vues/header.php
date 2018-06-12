@@ -27,13 +27,26 @@
 
 <div id="style" style="text-align: right; position: relative; right: 50px; top: 15px">
 
-    <div id="connexion">
+    <?php 
+        if(!isset($_SESSION['username'])){
+    ?>
+        <div id="connexion">
         <input type="text" id="username" placeholder="Identifiant">
         <input type="password" id="password" placeholder="Mot de passe">
         <button onclick="connexion()">Valider</button>
-    </div>
+        </div>
+    <?php
+        }else{
+    ?>
+    	<a href="./?p=membres">Espace membres</a> | 
+        <a href="vues/logout.php">Se déconnecter</a>
+    <?php
+        }
+    ?>
+
 </div>
 <br>
+
 <div class="row">
     <div class="col-lg-12">
         <nav class="navbar">
