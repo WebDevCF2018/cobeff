@@ -1,7 +1,8 @@
 <?php
-    //Ouverture de connexion
+    //Ouverture de connexion et appel du fichier de connexion à la db
     session_start();
-
+    require_once "config.php";
+    require_once "model/initDB.php";
 	//Charger base fichier de db
 	require "vues/header.php";
 	require "controller/mainController.php";
