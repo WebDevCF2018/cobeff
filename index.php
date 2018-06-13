@@ -1,11 +1,21 @@
 <?php
-    //Ouverture de connexion et appel du fichier de connexion à la db
+    //Ouverture de connexion
     session_start();
-    require_once "config.php";
-    require_once "model/initDB.php";
+
 	//Charger base fichier de db
 	require "vues/header.php";
-	require "controller/mainController.php";
+	
+	// redirection vers le controlleur approprié entre fonction de l'utilisateur
+	if(isset($_SESSION['permission'])){
+		if($_SESSION['permission'] == 1){
+			require "controller/adminController.php";
+		}else{
+			require "controller/usersController.php";
+		}
+	}else{
+		require "controller/publicController.php";
+	}
+
 	require "vues/footer.php";
 ?>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
