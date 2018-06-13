@@ -25,10 +25,41 @@
 
 <body onload="document.body.style.display = 'block' ">
 
+ <?php
+        if(isset($_SESSION['permission'])){
+            switch ($_SESSION['permission']){
+                case 1:
+                     $info = "<p style='position: absolute;top: 8px;left:5px;'>Vous êtes Administrateur</p>";
+                    break;
+
+                case 2:
+                     $info = "<p style='position: absolute;top: 8px;left:5px;'>Vous êtes Formateur pour ";
+
+                default:
+                    $info = "<p style='position: absolute;top: 8px;left:5px;'>Vous êtes Stagiaire pour ";
+                    break;
+            }
+        }
+
+
+        if(isset($_SESSION['filiere'])){
+            switch ($_SESSION['filiere']){
+                case 1:
+                    $info .= "Vendeuse Polyvalente</p>";
+                    break;
+
+                case 2:
+                    $info .= "Cuisine et service en salle</p>";
+                    break;
+            }
+            echo $info;
+        }
+    ?>
+
 <div id="style" style="text-align: right; position: relative; right: 50px; top: 15px">
 
     <?php 
-        if(!isset($_SESSION['username'])){
+        if(!isset($_SESSION['permission'])){
     ?>
         <div id="connexion">
         <input type="text" id="username" placeholder="Identifiant">
@@ -38,7 +69,8 @@
     <?php
         }else{
     ?>
-    	<a href="./?p=membres">Espace membres</a> | 
+    	<?php if($_SESSION['permission'] == 1){ ?> <a href="./?p=admin">Administration</a> | <?php } ?>
+        <a href="./?p=membres">Espace membres</a> | 
         <a href="vues/logout.php">Se déconnecter</a>
     <?php
         }
