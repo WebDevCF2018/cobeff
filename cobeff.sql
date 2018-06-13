@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mer. 06 juin 2018 à 14:25
+-- Généré le :  mer. 13 juin 2018 à 08:43
 -- Version du serveur :  5.7.19
 -- Version de PHP :  5.6.31
 
@@ -64,7 +64,28 @@ CREATE TABLE IF NOT EXISTS `login` (
   `permission` tinyint(3) UNSIGNED NOT NULL,
   `filiere` tinyint(6) UNSIGNED NOT NULL,
   PRIMARY KEY (`idLogin`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+
+--
+-- Déchargement des données de la table `login`
+--
+
+INSERT INTO `login` (`idLogin`, `username`, `password`, `permission`, `filiere`) VALUES
+(1, 'admin', 'ok', 1, 0),
+(2, 'stagiaire2', 'ok', 3, 2),
+(3, 'stagiaire1', 'ok', 3, 1),
+(4, 'stagiaire3', 'ok', 3, 3),
+(5, 'stagiaire4', 'ok', 3, 4),
+(6, 'stagiaire5', 'ok', 3, 5),
+(7, 'stagiaire6', 'ok', 3, 6),
+(8, 'stagiaire7', 'ok', 3, 7),
+(9, 'formateur1', 'ok', 2, 1),
+(10, 'formateur2', 'ok', 2, 2),
+(11, 'formateur3', 'ok', 2, 3),
+(12, 'formateur4', 'ok', 2, 4),
+(13, 'formateur5', 'ok', 2, 5),
+(14, 'formateur6', 'ok', 2, 6),
+(15, 'formateur7', 'ok', 2, 7);
 
 -- --------------------------------------------------------
 
