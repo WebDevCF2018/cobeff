@@ -33,8 +33,8 @@
                     break;
 
                 case 2:
-                     $info = "<p style='position: absolute;top: 8px;left:5px;'>Vous êtes Formateur pour ";
-
+                     $info = "<p style='position: absolute;top: 8px;left:5px;'>Vous êtes Formateur pour";
+                    break;
                 default:
                     $info = "<p style='position: absolute;top: 8px;left:5px;'>Vous êtes Stagiaire pour ";
                     break;
@@ -50,6 +50,26 @@
 
                 case 2:
                     $info .= "Cuisine et service en salle</p>";
+                    break;
+
+                case 3:
+                    $info .= "Auxiliaire de l'enfance</p>";
+                    break;
+
+                case 4:
+                    $info .= "Service aide au personnes / Aide soignante</p>";
+                    break;
+
+                case 5:
+                    $info .= "Agent d'entretien en milieu hospitalier</p>";
+                    break;
+
+                case 6:
+                    $info .= "Préparation au jury du 2e degré</p>";
+                    break;
+
+                case 7:
+                    $info .= "Complément CESS</p>";
                     break;
             }
             echo $info;

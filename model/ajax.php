@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	require "initDB.php";
 	// Toutes les requêtes en ajax sont faites dans ce fichier.
 	// Il faut obligatoirement envoyer une variable $_POST['function'] lors du chargement du fichier et lui attribué le numéro de fonction que l'on souhaite utiliser.
 
