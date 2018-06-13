@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	if(isset($_SESSION['username'])){
 		echo "Bienvenue ".$_SESSION['username']." !";
 		echo "<script>setTimeout(function(){location.replace('../');}, 3000)</script>";

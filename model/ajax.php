@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	// Toutes les requêtes en ajax sont faites dans ce fichier.
 	// Il faut obligatoirement envoyer une variable $_POST['function'] lors du chargement du fichier et lui attribué le numéro de fonction que l'on souhaite utiliser.
 
@@ -31,7 +32,7 @@
 
 					// Si code est toujours 200 alors faire une requête SQL.
 					if($response == 200){ 
-						$req = $db->query('SELECT username FROM login WHERE username="'.$username.'" and password = "'.$password.'"');
+						$req = $db->query('SELECT username, permission, filiere FROM login WHERE username="'.$username.'" and password = "'.$password.'"');
 
 						$req = $req->fetch();
 					
@@ -44,6 +45,8 @@
 					// Résultat de la requête.
 					if($req['username'] != ""){
 						$_SESSION['username'] = $req['username'];
+						$_SESSION['permission'] = $req['permission'];
+						$_SESSION['filiere'] = $req['filiere'];
 						$response = 200; // Correspondance
 					}else{
 						$response = 403; // Pas de coresspondance
