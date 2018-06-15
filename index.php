@@ -1,10 +1,10 @@
 <?php
     //Ouverture de connexion
     session_start();
-
 	//Charger base fichier de db
 	require "vues/header.php";
-	
+
+
 	// redirection vers le controlleur approprié entre fonction de l'utilisateur
 	if(isset($_SESSION['permission'])){
 		if($_SESSION['permission'] == 1){
