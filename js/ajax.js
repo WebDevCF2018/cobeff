@@ -1,5 +1,5 @@
 function connexion(){
-    $.post('model/ajax-min.php', 'function=1&username='+document.getElementById("username").value+'&password='+document.getElementById('password').value, response)
+    $.post('model/ajax-min.php', 'function=1&username='+document.getElementById("username").value+'&password='+document.getElementById('password').value, response);
 
     function response(response){
         if(response == 200){

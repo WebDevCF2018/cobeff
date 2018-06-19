@@ -19,6 +19,34 @@
 				break;
 
 			case "restaurant":
+                //update
+			if (isset($_GET['modification'])) {
+            $update = (int)$_GET['modification'];
+                // formulaire non envoyé
+                if (empty($_POST)) {
+                    // on récupère toutes les catégories
+                    $menu= categorie($mysqli);
+                    // on récupère l'article
+                    $recup = vueArt($mysqli, $update, false);
+                    // on prend l'iduser du user dans la db et on le compare avec l'iduser de session, et si ils sont différents, on déconnecte l'utilisateur
+                    if ($recup['idUtilisateur'] != $_SESSION['idUtilisateur']) header("Location: ?logout");
+                    // appel de la vue
+                    require_once "Vues/UpdateAdmin.php";
+                } else {
+                    // traitement de l'envoi
+                    if (updateArt($mysqli, $update, $_POST)) {
+                        // redirection sur l'accueil
+                        header("Location: ./");
+                    } else {
+                        // création de la faute
+                        $erreur = "Erreur lors de la modification de votre article";
+                        $menu = categorie($mysqli);
+                        $recup = vueArt($mysqli, $update, false);
+                        // appel de la vue
+                        require_once "Vues/UpdateAdmin.php";
+                    }
+                }
+        }
 				require "vues/restaurant.php";
 				break;
 
