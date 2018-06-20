@@ -17,12 +17,12 @@ require_once "model/restaurantModel.php";
 				require "vues/restaurant.php";
 				break;
 
-			case "actualités":
+			case "actualites":
 				require "vues/actualites.php";
 				break;
 
-			case "présentations":
-				require "vues/présentations.php";
+			case "presentations":
+				require "vues/presentations.php";
 				break;
 
 			case "about":
@@ -37,3 +37,4 @@ require_once "model/restaurantModel.php";
 		require "vues/accueil.php";
 	}
 ?>
+
