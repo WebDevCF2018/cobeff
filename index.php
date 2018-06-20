@@ -2,6 +2,7 @@
     //Ouverture de connexion
     session_start();
 	//Charger base fichier de db
+require_once "config.php";
 require "model/initDB.php";
 	require "vues/header.php";
 
