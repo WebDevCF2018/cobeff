@@ -1,4 +1,5 @@
 <?php
+require_once "model/restaurantModel.php";
 	if(isset($_GET['p'])){
 		switch ($_GET['p']){
 
@@ -20,8 +21,7 @@
 
 			case "restaurant":
                 //update
-			if (isset($_GET['modification'])) {
-            $update = (int)$_GET['modification'];
+			if (isset($_GET['modifMenu'])) {
                 // formulaire non envoyé
                 if (empty($_POST)) {
                     // on récupère toutes les catégories

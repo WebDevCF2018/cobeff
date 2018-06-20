@@ -1,4 +1,5 @@
 <?php
+require_once "model/restaurantModel.php";
 	if(isset($_GET['p'])){
 		switch ($_GET['p']) {
 
@@ -11,6 +12,8 @@
 				break;
 
 			case "restaurant":
+
+				$listeMenu = afficheMenu($db);
 				require "vues/restaurant.php";
 				break;
 
