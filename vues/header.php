@@ -119,8 +119,8 @@
                         <div id="nav-formations" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
                             <a class="nav-link" href="./?p=formations">Formations</a>
                         </div>
-                        <div id="nav-actualités" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
-                            <a class="nav-link" href="./?p=actualités">Actualités</a>
+                        <div id="nav-actualites" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
+                            <a class="nav-link" href="./?p=actualites">Actualités</a>
                         </div>    
                     </div>
 
