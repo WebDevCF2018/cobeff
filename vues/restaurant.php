@@ -26,57 +26,19 @@
         </div>
         <div class="container">
             <div class="row">
+
+                <?php
+                foreach ($listeMenu as $item){
+                ?>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box mt-5 mx-auto">
-                        <h3 class="mb-3">Mardi 29 mai</h3>
-                        <p class="text-muted mb-0">Entrée : Tajine au fromage
-                            Plat : Poulet à la canelle et aux légumes
-                            Dessert : Semoule à la fleur d'oranger</p>
+                        <h3 class="mb-3"><?= $item["date"];?></h3>
+                        <p class="text-muted mb-0"><?=$item["descritpion"]?></p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box mt-5 mx-auto">
-                        <h3 class="mb-3">Mercredi 30 juin</h3>
-                        <p class="text-muted mb-0">YPotage : tomate et basilic
-                            Entrée : Mousse de poisson
-                            Plat : Dorade au four, légumes méditerranéen
-                            Dessert : Crêpe Suzette</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box mt-5 mx-auto">
-                        <h3 class="mb-3">​​​​​Mardi 05 juin</h3>
-                        <p class="text-muted mb-0">Entrée : Salsa aux concombres
-                            Plat : Fajitas au poulet
-                            Dessert : Crème au caramel aux saveur du mexique</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box mt-5 mx-auto">
-                        <h3 class="mb-3">Mercredi 06 juin</h3>
-                        <p class="text-muted mb-0">Potage : Soupe au lait de coco et poulet
-                            Entrée : Rouleaux de printemps
-                            Plat : Riz sauté au canard
-                            Dessert : Glace</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box mt-5 mx-auto">
-                        <h3 class="mb-3">Mardi 12 juin</h3>
-                        <p class="text-muted mb-0">Entrée : Pastilla aux fruits de mer
-                            Plat : Tajine de viande et dattes farcies
-                            Dessert : Cigares aux amandes</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box mt-5 mx-auto">
-                        <h3 class="mb-3">Mercredi 13 juin</h3>
-                        <p class="text-muted mb-0">Potage : Gaspacho andalou
-                            Entrée : Beignets de courgettes
-                            Plat : Escalope de veau, tomate grillée
-                            Dessert : Tiramisu aux fraises</p>
-                    </div>
-                </div>
+                    <?php
+                }
+                ?>
             </div>
         </div>
     </section>
