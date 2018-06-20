@@ -37,7 +37,7 @@ require_once "model/restaurantModel.php";
 
 			case"modifMenu":
                 $listeMenu = afficheMenu($db);
-                    require_once "vues/restaurant.php";
+                    require_once "vues/restaurantModif.php";
 			break;
 
 
