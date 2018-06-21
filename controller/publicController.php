@@ -1,5 +1,6 @@
 <?php
-require_once "model/restaurantModel.php";
+
+$Restaurant = new RestaurantManager($db);
 	if(isset($_GET['p'])){
 		switch ($_GET['p']) {
 
@@ -12,8 +13,14 @@ require_once "model/restaurantModel.php";
 				break;
 
 			case "restaurant":
-
-				$listeMenu = afficheMenu($db);
+				$recup = $Restaurant->listMenu();
+                if($recup){
+                    foreach ($recup as $item){
+                        $listView[]=new Restaurant($item);
+                    }
+                }else{
+                    $listView="pas de menu";
+                }
 				require "vues/restaurant.php";
 				break;
 

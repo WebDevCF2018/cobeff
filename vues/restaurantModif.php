@@ -28,12 +28,12 @@
             <div class="row">
 
                 <?php
-                foreach ($listeMenu as $item){
+                foreach ($listView as $item) {
                 ?>
                 <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box mt-5 mx-auto"><img src="./img/icon/update.png" height="50" width="50">
-                        <h3 class="mb-3"><?= $item["date"];?></h3>
-                        <p class="text-muted mb-0"><?=$item["descritpion"]?></p>
+                    <div class="service-box mt-5 mx-auto"><img id="updateIcon" src="./img/icon/update.png" height="50" width="50">
+                        <h3 class="mb-3"><?=$item->getThedate();?></h3>
+                        <p class="text-muted mb-0"><?=$item->getDescription();?></p>
                     </div>
                 </div>
                     <?php

@@ -3,8 +3,16 @@
     session_start();
 	//Charger base fichier de db
 require_once "config.php";
-require "model/initDB.php";
 	require "vues/header.php";
+
+try{$db = new PDO('mysql:host=localhost;dbname=cobeff;charset=utf8', 'root', '');}
+catch (Exception $e){die('Erreur : ' . $e->getMessage());}
+
+
+//autoload
+spl_autoload_register(function ($nameClass) {
+    require_once "model/$nameClass.php";
+});
 
 
 	// redirection vers le controlleur approprié entre fonction de l'utilisateur
@@ -21,6 +29,7 @@ require "model/initDB.php";
 	require "vues/footer.php";
 ?>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">

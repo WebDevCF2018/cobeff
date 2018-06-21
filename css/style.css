@@ -10,3 +10,10 @@
 section{
     padding:2rem 0;
 }
+
+#updateIcon{
+    vertical-align: middle;
+    margin-left: -20%;
+    position: absolute;
+    margin-top: -3%;
+}
