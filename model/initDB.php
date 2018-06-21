@@ -1,3 +1,3 @@
 <?php
-try{$db = new PDO('mysql:host=localhost;dbname=cobeff;charset=utf8', 'root', '');}
+try{$db = new PDO('mysql:host=localhost;dbname=cobeff2;charset=utf8', 'root', '');}
 catch (Exception $e){die('Erreur : ' . $e->getMessage());}

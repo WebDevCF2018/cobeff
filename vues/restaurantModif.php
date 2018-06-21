@@ -1,5 +1,4 @@
 <div class="container-fluid">
-
         <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
@@ -31,7 +30,7 @@
                 foreach ($listView as $item) {
                 ?>
                 <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box mt-5 mx-auto"><img id="updateIcon" src="./img/icon/update.png" height="50" width="50">
+                    <div class="service-box mt-5 mx-auto"><a href="?p=modifMenu&update=<?=$item->getIdMenu();?>" ><img id="updateIcon" src="./img/icon/update.png" height="50" width="50"></a>
                         <h3 class="mb-3"><?=$item->getThedate();?></h3>
                         <p class="text-muted mb-0"><?=$item->getDescription();?></p>
                     </div>
@@ -111,4 +110,8 @@
             </div>
         </div>
     </section>
+
+
+
 </div>
+<script src="js/jquery-1.11.3.min.js"></script>

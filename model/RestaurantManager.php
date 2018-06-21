@@ -28,6 +28,18 @@ class RestaurantManager
         }
     }
 
+    public function oneMenu(int $id){
+        $sql = "SELECT * FROM `restaurant` WHERE idMenu = ?";
+        $request = $this->db->prepare($sql);
+        $request->bindValue(1,$id,PDO::PARAM_INT);
+        $request->execute();
+        if($request->rowCount()){
+            return $request->fetch(PDO::FETCH_ASSOC);
+        }else{
+            return false;
+        }
+    }
+
 
     public function updateMenu(Restaurant $NewDatas, int $getIdMenu){
 
@@ -36,7 +48,7 @@ class RestaurantManager
             $update = $this->db->prepare($sql);
 
             $update->execute([
-                $NewDatas->getDate(),
+                $NewDatas->getThedate(),
                 $NewDatas->getDescription()
             ]);
             if($update->rowCount()){

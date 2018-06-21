@@ -54,6 +54,31 @@ $Restaurant = new RestaurantManager($db);
                 }else{
                     $listView="pas de menu";
                 }
+
+                if (isset($_GET['update']) && ctype_digit($_GET['update'])) {
+
+                    $idMenu = (int) $_GET['update'];
+
+                    if (empty($_POST)) {
+
+                        $recup = $Restaurant->oneMenu($idMenu);
+                        if ($recup) {
+                            $recup2 = new Restaurant($recup);
+                        }
+
+                        require_once "vues/restaurantModif.php";
+
+                    } else {
+
+                        $update = new Restaurant($_POST);
+                        $change = $Restaurant->updateMenu($update, $idMenu);
+                        if ($change) {
+                            header("Location: restaurantModif.php");
+                        } else {
+
+                        }
+                    }
+                }
                 require_once "vues/restaurantModif.php";
 			break;
 

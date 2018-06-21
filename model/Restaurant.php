@@ -9,7 +9,7 @@
 class Restaurant
 {
 
-    private $idMenu, $thedate ,$description;
+    private $idMenu, $thedate ,$description, $login_idLogin;
 
     //constructeur
     public function __construct(array $datas)
@@ -47,6 +47,13 @@ class Restaurant
         return $this->description;
     }
 
+
+    public function getLoginIdLogin()
+    {
+        return $this->login_idLogin;
+    }
+
+
     /**
      * setters
      */
@@ -57,12 +64,18 @@ class Restaurant
 
     public function setThedate($thedate)
     {
-        $this->date = $thedate;
+        $this->thedate = $thedate;
     }
 
     public function setDescription($description)
     {
         $this->description = html_entity_decode($description);
+    }
+
+
+    public function setLoginIdLogin($login_idLogin)
+    {
+        $this->login_idLogin = $login_idLogin;
     }
 
 
