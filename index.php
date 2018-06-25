@@ -2,7 +2,7 @@
     //Ouverture de connexion
     session_start();
 	//Charger base fichier de db
-require_once "config.php";
+	require_once "model/initDB.php";
 	require "vues/header.php";
 
 try{$db = new PDO('mysql:host=localhost;dbname=cobeff;charset=utf8', 'root', '');}
