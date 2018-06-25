@@ -10,7 +10,7 @@
                             <p class="tm-blog-post-description">Maecenas semper turpis quis elit finibus, non suscipit libero eleifend. Pellentesque viverra, libero in dapibus volutpat, risus sapien pharetra nulla.</p>
                             <p class="tm-blog-post-description">Aenean nunc est, rhoncus sed hendrerit a, tristique venenatis massa. Donec tortor arcu, mattis a augue id, fermentum porta lectus.</p>                            
                         </div>
-                        <a href="#" class="tm-blog-post-link">Read More...</a>
+                        <a href="#" class="tm-blog-post-link">En savoir plus...</a>
                     </div>                                                
                 </div>
             </div>
@@ -23,7 +23,7 @@
                             <p class="tm-blog-post-description">Ut vel porttitor lectus. Pellentesque vitae ipsum quis tortor aliquet tristique ut non lacus. Etiam bibendum venenatis lacus, ut porttitor ligula posuere non.</p>
                             <p class="tm-blog-post-description">Nunc et nisi et tortor hendrerit interdum vitae eu sem. Aliquam sit amet ex consectetur, faucibus tellus at, scelerisque libero.</p>                            
                         </div>
-                        <a href="#" class="tm-blog-post-link">Details...</a>
+                        <a href="#" class="tm-blog-post-link">En savoir plus...</a>
                     </div>  
                 </div>
             </div>
@@ -35,7 +35,8 @@
                             <h2 class="tm-blog-post-title">Quisque eu velit eget urna</h2>
                             <p class="tm-blog-post-description">Vivamus dolor, dui, ultricies nec justo sed, posuere bibendum arcu. Sed ut massa vestibulum, consequat turpis eu, auctor nisi. Mauris condimentum cursus magna, ut varius diam rutrum nec.</p>
                             <p class="tm-blog-post-description">Curabitur iaculis pellentesque consequat. Nam et ante lacus. Paesent enim ante, tempor ornare tempor facilisis, pretium nec neque.</p>
-                        </div>                            
+                        </div>
+                        <a href="#" class="tm-blog-post-link">En savoir plus...</a>
                     </div>  
                 </div>
             </div>
@@ -47,7 +48,8 @@
                             <h2 class="tm-blog-post-title">Nulla pretium euismod enim</h2>
                             <p class="tm-blog-post-description">Donec ut metus sapien. Pellentesque sed odio aliquam, viverra nisl sed, maximus mi. Mauris pretium id justo non varius. Curabitur tristique porttitor erat.</p>
                             <p class="tm-blog-post-description">Praesent enim ante, tempor ornare tempor facilisis, pretium nec neque. Nullam ac tortor a leo vehicula varius laoreet eu neque. Fusce id consectetur nunc. Praesent interdum elit nec odio semper sodales.</p> 
-                        </div>                            
+                        </div>
+                        <a href="#" class="tm-blog-post-link">En savoir plus...</a>
                     </div>  
                 </div>
             </div>
