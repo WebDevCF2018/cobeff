@@ -67,7 +67,16 @@
                                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 nav-item">
                                         <a class="nav-link" href="./?p=formations&f=6">Formation 6</a>
                                     </div>
-                                </div>                            
+                                </div>
+
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0 tm-nav-item-pair">
+                                    <div class="nav-item">
+                                        <a class="nav-link" href="./?p=formations&f=7">Formation 7</a>
+                                    </div>
+                                    <div class="nav-item">
+                                        <a class="nav-link" href="./?p=formations&f=8"></a>
+                                    </div>
+                                </div>
                                 
                             </div>    
                         </div>                    
@@ -83,35 +92,35 @@
                             <li class="tm-tab-link-item">
                                 <a id="tab1" href="javascript:void(0)" class="tm-tab-link active">
                                     <i class="fa fa-music tm-tab-icon"></i>
-                                    <div class="tm-tab-link-label">Tab Section First</div>
+                                    <div class="tm-tab-link-label">Résumé métier</div>
                                 </a>
                             </li>
 
                             <li class="tm-tab-link-item">
                                 <a id="tab2" href="javascript:void(0)" class="tm-tab-link">
                                     <i class="fa fa-users tm-tab-icon"></i>
-                                    <span class="tm-tab-link-label">Second Tab Title</span>
+                                    <span class="tm-tab-link-label">Une formation qualifiante</span>
                                 </a>
                             </li>
 
                             <li class="tm-tab-link-item">
                                 <a id="tab3" href="javascript:void(0)" class="tm-tab-link">
                                     <i class="fa fa-heart tm-tab-icon"></i>
-                                    <span class="tm-tab-link-label">Third Section Tab</span>
+                                    <span class="tm-tab-link-label">Le programme</span>
                                 </a>
                             </li>
 
                             <li class="tm-tab-link-item">
                                 <a id="tab4" href="javascript:void(0)" class="tm-tab-link">
                                     <i class="fa fa-microphone tm-tab-icon"></i>
-                                    <span class="tm-tab-link-label">Title Fourth comes up</span>
+                                    <span class="tm-tab-link-label">Conditions d'inscription</span>
                                 </a>
                             </li>
 
                             <li class="tm-tab-link-item">
                                 <a id="tab5" href="javascript:void(0)" class="tm-tab-link">
                                     <i class="fa fa-globe tm-tab-icon"></i>
-                                    <span class="tm-tab-link-label">Fifth Title goes here</span>
+                                    <span class="tm-tab-link-label">Dates d'inscription</span>
                                 </a>
                             </li>
                             
